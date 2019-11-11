@@ -9,16 +9,16 @@ var teste;
 function validar01(){
     
     if(window.event.srcElement.value == teste){
-        alert("Valores repetidos não é prmitido!");
+        alert("Valores repetidos não é permitido!");
     }
-    
+
     teste = window.event.srcElement.value;
 }
 
 function validar02(){
     
     if(window.event.srcElement.value == teste){
-        alert("Valores repetidos não é prmitido!");
+        alert("Valores repetidos não é permitido!");
         teste = window.event.srcElement.value;
     }
 
